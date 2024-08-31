@@ -1,0 +1,12 @@
+.iframe-container{
+    min-height: 400px;
+}
+.position-fixed{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+}
+.colorfix{
+    color: white;
+}
