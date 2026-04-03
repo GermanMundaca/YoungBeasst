@@ -1,12 +1,48 @@
-.iframe-container{
-    min-height: 400px;
+
+
+
+/* ========================
+   HERO
+======================== */
+
+.hero-box{
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 40px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+  border: 1px solid rgba(255,255,255,0.08);
+  max-width: 1100px;
+  margin: 0 auto;
+  
 }
-.position-fixed{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 1;
+/* HERO */
+.hero-box {
+  width: 100%;
 }
-.colorfix{
-    color: white;
+
+/* VIDEO */
+.video-play {
+  position: relative;
+  max-width: 600px;
+  width: 100%;
+}
+
+.video-hero {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* BOTÓN SONIDO */
+.btn-sound {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 50%;
+  padding: 8px;
+  opacity: 0.8;
+}
+
+.btn-sound:hover {
+  opacity: 1;
 }
