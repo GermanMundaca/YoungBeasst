@@ -8,143 +8,159 @@
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-       
-<main id="home" class="vh-100">
+  <div class="main-layout">
 
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  
+  <main id="home" class="vh-100">
 
-    <!-- HEADER -->
-    <header class="d-flex justify-content-between align-items-center mb-4">
-      <h3 class="mb-0">YoungBeasst</h3>
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
 
-      <nav class="nav">
-        <a class="nav-link fw-bold p-3 colorfix active" href="#home">Home</a>
-        <a class="nav-link fw-bold p-3 colorfix" href="#More">Features</a>
-        <a class="nav-link fw-bold p-3 colorfix" href="#contact">Contact</a>
-      </nav>
-    </header>
+      <!-- HEADER -->
+      <div class="d-flex justify-content-center mt-3 mb-4">
+        <nav class="nav-box px-4 py-2 d-flex align-items-center gap-3">
+          <span class="fw-bold">YoungBeasst</span>
 
-    <!-- HERO -->
-    <div class="hero-box flex-grow-1 d-flex flex-column justify-content-center align-items-center text-center">
-
-      <!-- TÍTULO -->
-      <h1 class="display-4 fw-bold mb-4">YoungBeasst</h1>
-
-      <!-- VIDEO -->
-      <div class="video-play mb-4">
-
-        <video 
-          id="miVideo" 
-          src="img/YoungBeasst.mp4" 
-          class="video-hero" 
-          autoplay 
-          muted 
-          loop>
-        </video>
-
-        <!-- BOTÓN SONIDO -->
-        <button type="button" class="btn btn-light btn-sound" onclick="sounds()">
-          <img id="muted" src="img/mute.png" width="20">
-        </button>
-
+          <ul class="nav">
+            <li class="nav-item"><a href="#home" class="nav-link fw-bold p-3 ">Home</a></li>
+            <li class="nav-item"><a href="#more" class="nav-link fw-bold p-3  ">Proyectos</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link fw-bold p-3  ">Contacto</a></li>
+          </ul>
+        </nav>
       </div>
 
-      <!-- REDES -->
-      <div class="social-links d-flex gap-4">
 
-        <a target="_blank" href="https://www.youtube.com/@YoungBeasst">
-          <img src="img/youtube.png" width="70">
-        </a>
 
-        <a target="_blank" href="https://open.spotify.com/intl-es/artist/3LYCUYiWzQWedK3EmN7Ow9">
-          <img src="img/spotify.png" width="60">
-        </a>
+      <!-- HERO -->
+      <div class="hero-box flex-grow-1 d-flex flex-column justify-content-center align-items-center text-center">
+
+        <!-- TÍTULO -->
+        <h1 class="display-4 fw-bold mb-4">YoungBeasst</h1>
+
+        <!-- VIDEO -->
+        <div class="video-play mb-4">
+
+          <video id="miVideo" src="img/YoungBeasst.mp4" class="video-hero" autoplay muted loop>
+          </video>
+
+          <!-- BOTÓN SONIDO -->
+          <button type="button" class="btn btn-light btn-sound" onclick="sounds()">
+            <img id="muted" src="img/mute.png" width="20">
+          </button>
+
+        </div>
+
+        <!-- REDES -->
+        <div class="social-links d-flex gap-4">
+
+          <a target="_blank" href="https://www.youtube.com/@YoungBeasst">
+            <img src="img/youtube.png" width="70">
+          </a>
+
+          <a target="_blank" href="https://open.spotify.com/intl-es/artist/3LYCUYiWzQWedK3EmN7Ow9">
+            <img src="img/spotify.png" width="60">
+          </a>
+
+        </div>
 
       </div>
 
     </div>
 
-  </div>
-
-</main>
-        
+  </main>
 
 
 
-        <!-- START THE FEATURETTES -->
-        <section id="More" class="bg-body-tertiary d-flex justify-content-center">         
-          <div class="container px-5 pb-5">
 
-            <h2 class="display-4 fw-bold lh-1 text-body-emphasis py-5">Proyectos</h2>
-            <!-- video1 -->
-            <div class="row featurette">
-              <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading fw-normal lh-1">YoungBeasst - <span class="text-body-secondary">The money Team</span></h2>
-                <p class="lead">
-                  10,453 vistas  3 mar 2024  #popsmokeofficial #drillmusic #libertymafia</p>
-              </div>
-              <div class="col-md-5 order-md-1 iframe-container">
-                  <iframe class="ratio h-100" src="https://www.youtube.com/embed/CyFEoZ_gyDs?si=2r0jipxtRBsz2pHh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            </div>
-            
-            <hr class="featurette-divider">
-             <!-- video2 -->
-            <div class="row featurette">
-              <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading fw-normal lh-1">YoungBeasst -  <span class="text-body-secondary">STARS Video Oficial (Prod. DBS)</span></h2>
-                <p class="lead">
-                  5,384 vistas  9 sept 2023  #LibertyMafia
-                  #LibertyMafia #YoungBeasst</p>
-              </div>
-              <div class="col-md-5 order-md-1 iframe-container">
-                  <iframe class="ratio h-100" src="https://www.youtube.com/embed/UtnZGYBUV3Q?si=lFY0PPCbW6IkQFBH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            </div>
-        
-            <hr class="featurette-divider">
-            <!-- video3 -->
-            <div class="row featurette">
-              <div class="col-md-7 order-md-2">
-                <h2 class="featurette-heading fw-normal lh-1">YoungBeasst -  <span class="text-body-secondary">Naci pa primero Vol.1  </span></h2>
-                <p class="lead">
-                  3,306 vistas  14 jul 2023
-                </p>
-              </div>
-              <div class="col-md-5 order-md-1 iframe-container">
-                  <iframe class="ratio h-100" src="https://www.youtube.com/embed/rbjNsInl7Dw?si=A3DS9hA9dm7tjV7a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-              </div>
-            </div>
-        
-        
-            <!-- /END THE FEATURETTES -->
-        
-          </div>
-        </section> 
-        <section id="contact" class="container my-5">
-          <h2>Contacto</h2>
-          <form>
-              <div class="form-group">
-                  <label for="name">Nombre</label>
-                  <input type="text" class="form-control" id="name" placeholder="Tu nombre">
-              </div>
-              <div class="form-group">
-                  <label for="email">Correo electrónico</label>
-                  <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
-              </div>
-              <div class="form-group">
-                  <label for="message">Mensaje</label>
-                  <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
-      </section>
-        <footer class="mt-4 text-white-50 d-flex justify-content-center">
-          <p>© YoungBeasst Company, Inc</p>
-        </footer>
-      
-    <script src="script.js"></script>
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- START THE FEATURETTES -->
+  <section id="more" class="bg-body-tertiary d-flex justify-content-center mt-5">
+    <div class="container px-5 pb-5">
+
+      <h2 class="display-4 fw-bold lh-1 text-body-emphasis py-5">Proyectos</h2>
+      <!-- video1 -->
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">YoungBeasst - <span class="text-body-secondary">The money
+              Team</span></h2>
+          <p class="lead">
+            10,453 vistas 3 mar 2024 #popsmokeofficial #drillmusic #libertymafia</p>
+        </div>
+        <div class="col-md-5 order-md-1 iframe-container">
+          <iframe class="ratio h-100" src="https://www.youtube.com/embed/CyFEoZ_gyDs?si=2r0jipxtRBsz2pHh"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <!-- video2 -->
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">YoungBeasst - <span class="text-body-secondary">STARS Video
+              Oficial (Prod. DBS)</span></h2>
+          <p class="lead">
+            5,384 vistas 9 sept 2023 #LibertyMafia
+            #LibertyMafia #YoungBeasst</p>
+        </div>
+        <div class="col-md-5 order-md-1 iframe-container">
+          <iframe class="ratio h-100" src="https://www.youtube.com/embed/UtnZGYBUV3Q?si=lFY0PPCbW6IkQFBH"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <!-- video3 -->
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1">YoungBeasst - <span class="text-body-secondary">Naci pa primero
+              Vol.1 </span></h2>
+          <p class="lead">
+            3,306 vistas 14 jul 2023
+          </p>
+        </div>
+        <div class="col-md-5 order-md-1 iframe-container">
+          <iframe class="ratio h-100" src="https://www.youtube.com/embed/rbjNsInl7Dw?si=A3DS9hA9dm7tjV7a"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+
+      <!-- /END THE FEATURETTES -->
+
+    </div>
+  </section>
+  <section id="contact" class="container my-5">
+    <h2>Contacto</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Nombre</label>
+        <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+      </div>
+      <div class="form-group">
+        <label for="email">Correo electrónico</label>
+        <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico">
+      </div>
+      <div class="form-group">
+        <label for="message">Mensaje</label>
+        <textarea class="form-control" id="message" rows="3" placeholder="Tu mensaje"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+  </section>
+  <footer class="mt-4 text-white-50 d-flex justify-content-center">
+    <p>© YoungBeasst Company, Inc</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</div>
 </body>
+
 </html>
