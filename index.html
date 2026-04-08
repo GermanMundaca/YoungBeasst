@@ -11,9 +11,7 @@
   <div class="main-layout">
 
   
-  <main id="home" class="vh-100">
-
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <main id="home" class="cover-container d-flex w-100 h-100 mx-auto flex-column">
 
       <!-- HEADER -->
       <div class="d-flex justify-content-center mt-3 mb-4">
@@ -24,31 +22,19 @@
             <li class="nav-item"><a href="#home" class="nav-link fw-bold p-3 ">Home</a></li>
             <li class="nav-item"><a href="#more" class="nav-link fw-bold p-3  ">Proyectos</a></li>
             <li class="nav-item"><a href="#contact" class="nav-link fw-bold p-3  ">Contacto</a></li>
-          </ul>
-        </nav>
-      </div>
-
-
-
-      <!-- HERO -->
-      <div class="hero-box flex-grow-1 d-flex flex-column justify-content-center align-items-center text-center">
-
-        <!-- TÍTULO -->
-        <h1 class="display-4 fw-bold mb-4">YoungBeasst</h1>
-
-        <!-- VIDEO -->
-        <div class="video-play mb-4">
-
-          <video id="miVideo" src="img/YoungBeasst.mp4" class="video-hero" autoplay muted loop>
-          </video>
-
-          <!-- BOTÓN SONIDO -->
+             <!-- BOTÓN SONIDO -->
           <button type="button" class="btn btn-light btn-sound" onclick="sounds()">
             <img id="muted" src="img/mute.png" width="20">
           </button>
+          </ul>
+        </nav>
+      </div>
+      <!-- VIDEO -->
+        <div class="video-play mb-4 d-flex">
 
+          <video id="miVideo" src="img/YoungBeasst.mp4" class="video-hero" autoplay muted loop>
+          </video>
         </div>
-
         <!-- REDES -->
         <div class="social-links d-flex gap-4">
 
@@ -61,10 +47,6 @@
           </a>
 
         </div>
-
-      </div>
-
-    </div>
 
   </main>
 
