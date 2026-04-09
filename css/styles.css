@@ -24,13 +24,18 @@ section {
    NAVBAR
 ======================== */
 .nav-box {
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 50px;
+  background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(10px);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.3);
-  
 }
 
+/* LOGO PERFECTAMENTE CENTRADO */
+.logo-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* LINKS */
 .nav-link {
   color: white;
   transition: 0.3s;
@@ -40,7 +45,40 @@ section {
   color: #aaa;
 }
 
+/* LOGO */
+.brand {
+  color: white;
+  transition: 0.3s;
+}
 
+.brand:hover {
+  letter-spacing: 2px;
+}
+
+/* BOTÓN */
+.btn-sound {
+  border-radius: 50%;
+  padding: 2px;
+}
+/* MOBILE */
+@media (max-width: 768px) {
+
+  .nav-box {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* logo vuelve al flujo normal */
+  .logo-center {
+    position: static;
+    transform: none;
+  }
+
+  /* centrar todo */
+  .nav {
+    justify-content: center;
+  }
+}
 /* ========================
    HERO
 ======================== */
@@ -76,9 +114,6 @@ section {
 
 /* BOTÓN SONIDO */
 .btn-sound {
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
   border-radius: 50%;
   padding: 8px;
   opacity: 0.8;
