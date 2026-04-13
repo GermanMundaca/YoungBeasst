@@ -1,3 +1,4 @@
+/* layout */
 body {
   background-image: url("../img/background3.jpg");
 
@@ -7,7 +8,6 @@ body {
   backdrop-filter: 5px;
 
 }
-/* layout */
 .main-layout {
   margin: 0 auto;
 }
@@ -28,13 +28,6 @@ section {
   backdrop-filter: blur(10px);
 }
 
-/* LOGO PERFECTAMENTE CENTRADO */
-.logo-center {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 /* LINKS */
 .nav-link {
   color: white;
@@ -42,10 +35,16 @@ section {
 }
 
 .nav-link:hover {
-  color: #aaa;
+  color: #ff2a2a;
 }
 
 /* LOGO */
+.logo-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .brand {
   color: white;
   transition: 0.3s;
@@ -53,9 +52,10 @@ section {
 
 .brand:hover {
   letter-spacing: 2px;
+  color: #ff2a2a;
 }
 
-/* BOTÓN */
+/* BTN */
 .btn-sound {
   border-radius: 50%;
   padding: 2px;
@@ -122,3 +122,29 @@ section {
 .btn-sound:hover {
   opacity: 1;
 }
+/* ========================
+   PROJECTS
+======================== */
+.project-layout{
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(10px);
+}
+.card {
+  background-color: #1a1a1a;
+  color: #fff;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  border-radius: 16px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  color: #ff2a2a;
+}
+.card-link {
+  text-decoration: none;
+  color: inherit;
+}
+/* ========================
+   social
+======================== */
