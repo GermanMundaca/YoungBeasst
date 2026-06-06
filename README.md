@@ -65,15 +65,7 @@ Este proyecto consiste en una landing page para un artista musical, con enfoque 
 - Optimización de imágenes (lazy loading)
 - Mayor personalización visual (branding)
 
-## 📂 Estructura del proyecto
 
-/YoungBeasst
-│── index.html
-│── /css
-│── /js
-│── /assets
-
----
 
 ## 📄 Licencia
 
